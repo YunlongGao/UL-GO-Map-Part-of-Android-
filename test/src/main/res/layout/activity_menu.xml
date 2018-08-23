@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/space"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="UL-GO"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="20dp"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/Menu_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Menu"
+        android:fontFamily="casual"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="40dp"
+        android:textSize="35sp" />
+
+    <Button
+        android:id="@+id/Start_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bt_shape"
+        android:textStyle="bold"
+        android:onClick="go_map"
+        android:fontFamily="cursive"
+        android:text="Start"/>
+
+    <Button
+        android:id="@+id/Rank_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/bt_shape"
+        android:fontFamily="cursive"
+        android:onClick="go_rank"
+        android:text="Rank"/>
+
+    <Button
+        android:id="@+id/Map_btn"
+        android:layout_width="match_parent"
+        android:background="@drawable/bt_shape"
+        android:textStyle="bold"
+        android:fontFamily="cursive"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:text="Map"/>
+</LinearLayout>

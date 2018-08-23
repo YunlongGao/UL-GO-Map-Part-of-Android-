@@ -96,7 +96,7 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     private static final int LOCATION_PERMISSION_REQUEST_CODE = 1234;
     private static final float DEFAULT_ZOOM = 15f;
     private static final float CURRENT_LOCATION_DEFAULT_ZOOM = 15f;
-    private static final int range = 500;
+    private static final int range = 200;
     private static final int PLACE_PICKER_REQUEST = 1;
     private ImageView gps;
     private ImageView place_info,maps_info;
